@@ -17,6 +17,7 @@
   "scripts": {
     "build": "uglifyjs src/togglr.js -o dist/togglr.min.js -c -m"
   },
+  "main": "dist/togglr.min.js",
   "homepage": "https://github.com/stefanoio/togglr#readme",
   "devDependencies": {
     "uglify-js": "^2.7.0"
